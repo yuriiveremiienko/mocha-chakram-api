@@ -2,8 +2,8 @@ const chakram = require('chakram');
 const expect = chakram.expect;
 
 const url = 'https://api.trello.com/';
-const apiKey = '710c5185e71619f336f4b625ce9f46f4';
-const apiToken = '944941047fa41f7548ed387ee95e723bb6a63d51cc4d0b3849a989908aa9e2b1';
+const apiKey = '';
+const apiToken = '';
 const authString = `key=${apiKey}&token=${apiToken}`;
 
 describe(`Get endpoint ${url} should return`, function () {
